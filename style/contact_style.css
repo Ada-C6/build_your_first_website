@@ -1,0 +1,21 @@
+li:hover {
+  color: orange;
+  text-decoration: strong;
+}
+
+#rfv {
+  column-count: 2;
+  background-color: grey;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+}
+
+/*#asd {
+  border:7px red solid;
+}*/
+
+
+#lkj {
+  border:7px blue solid;
+}
