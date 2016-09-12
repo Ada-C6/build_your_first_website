@@ -1,0 +1,29 @@
+header {
+  background-color: plum;
+  border:2px green solid;
+}
+
+body {
+  background-color: lightgreen;
+  font-family: fantasy;
+}
+
+a:hover {
+  color: green;
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+}
+
+footer {
+  background-color: plum;
+  border:2px green solid;
+  text-align: center;
+}
+
+img {
+  height: 500px;
+
+}
