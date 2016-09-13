@@ -8,28 +8,86 @@ B. F25D75: pinkish
 C. 5B56B6: purply bluish color
 D. F2FC61: straight up yellow!
 */
-#header {
-	background: #9247AD;
-	border-left: solid 1px #9a9;
-	border-right: solid 1px #565;
-	border-top: solid 1px #9a9;
-	font: italic normal 230% 'Times New Roman', Times, serif;
-	letter-spacing: 0.1em;
+#nav_bar ul {
+ 	list-style-type: none;
 	margin: 0;
-	padding: 15px 10px 15px 60px;
+	padding: 0;
+	overflow: hidden;
+	background: 333;
+
+}
+li {
+	float:left;
+}
+li a {
+	display: inline;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+ li a:hover {
+	 background-color: #FFC300;
+ }
+
+#header {
+	/*Place the Header/Title section across the top of the site with a border and appropriate background color. What's apropriate?*/
+	background: #F2FC61;
+	font: Impact;
+	font-size: 24px;
+	text-align: center;
+	font-style: bold;
+	font-variant: normal;
+	border-left: dotted 5px #F25D75;
+	border-right: dotted 5px #F25D75;
+	border-top: dotted 5px #F25D75;
+	border-bottom: dotted 5px #F25D75;
+	letter-spacing: 0.1em;
 }
 
 #main_content li {
   display: inline-block;
   margin-left: 20px;
-  margin
+  margin: auto;
 }
-<ul style="list-dash-style: none; ul>"
+/*<ul style="list-dash-style: none; ul>"*/
+body {
+	background-image: url(http://fox.graphics/files/rainbow-triangles.jpg);
+	/*this is just for fun, maybe beige?*/
+}
 
-/*.ul{
-  style="list-dash-style":
-  none;
-}*/
+ul {
+	/*gets rid of bullets.*/
+  list-style-type: none;
+}
+
+#author_pic {
+	display: block;
+	width: 200px;
+	height: auto;
+}
+
+.footer ul {
+	list-style-type: none;
+	/*#not working.*/
+	text-transform: capitalize;
+	font-size: 14px;
+	width: 1200px;
+}
+
+.footer li {
+	text-align: center;
+	display: inline-block;
+}
+.footer li a {
+	list-style-type: none;
+	width: 100px;
+	position: relative;
+}
+.footer h3 {
+	display: flex;
+}
+
+
 
 /*.img {
   display: inline-block;
