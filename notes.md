@@ -2,6 +2,39 @@
 https://validator.w3.org/nu/#textarea
 
 
+advice from:
+----------------------------
+http://csswizardry.com/2011/01/create-a-centred-horizontal-navigation/
+<ul class="nav">
+  <li><a href="/">Home</a></li>
+  <li><a href="/about/">About</a></li>
+  <li><a href="/work/">Work</a></li>
+  <li><a href="/clients/">Clients</a></li>
+  <li><a href="/contact/">Contact</a></li>
+</ul>
+
+.nav{
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+}
+
+----------------------------
+
+
+
+
+
 # learned that above seems to make displaying of the information funky. Definitely, don't do additional ptag.
 # creates a drop down menu called details.
 <details>

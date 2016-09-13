@@ -11,27 +11,26 @@ D. F2FC61: straight up yellow!
 #nav_bar ul {
  	list-style-type: none;
 	margin: 0;
-	padding: 0;
+	padding: 1;
 	overflow: hidden;
 	background: 333;
   align-content: center;
 
 }
  #nav_bar {
-   align-items: center;
-   /*align-content: center;
-   background-color: blue;
-   float: center;
- }*/
+   align-items: right;
+   /*# I know there has got to be a better way to achievev this. I wanted my navs centered.*/
+   padding-left: 200px;
  }
 
 
 li {
 	float:left;
-  background-color: yellow;
 }
+
 li a {
-	display: inline;
+
+	/*display: inline;*/
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
@@ -48,10 +47,10 @@ li a {
 	text-align: center;
 	font-style: bold;
 	font-variant: normal;
-	border-left: dotted 5px #F25D75;
-	border-right: dotted 5px #F25D75;
-	border-top: dotted 5px #F25D75;
-	border-bottom: dotted 5px #F25D75;
+	border-left: dotted 5px #000080;
+	border-right: dotted 5px #000080;
+	border-top: dotted 5px #000080;
+	border-bottom: dotted 5px #000080;
 	letter-spacing: 0.1em;
   opacity: .5;
 }
@@ -74,19 +73,13 @@ ul {
 }
 
 .books img {
-  max-height: 10em;
+  /*this feels a bit hacky, I would have planned things differently.*/
+  max-height: 20em;
+  max-width: 70em;
+  height: 20em;
+  width: 15em;
+  padding: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 #author_pic {
 	display: block;
@@ -94,29 +87,22 @@ ul {
 	height: auto;
 }
 
-footer ul {
-	list-style-type: none;
-	/*#not working.*/
-	text-transform: capitalize;
-	font-size: 14px;
-	width: 1200px;
+footer {
+  padding-left: 25em;
+  display: inline-block;
+
 }
 
-footer li {
-	text-align: center;
-	display: inline-block;
-  background-color: blue;
-}
-footer li a {
-	list-style-type: none;
-	width: 100px;
-	position: relative;
-}
-footer h3 {
-	display: flex;
+.description {
+  font-size: 1.5em;
+
 }
 
+#onlybook {
+  padding-left: 35%;
+  padding-right: 35%;
 
+}
 
 /*.img {
   display: inline-block;
