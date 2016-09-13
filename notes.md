@@ -1,4 +1,7 @@
 
+https://validator.w3.org/nu/#textarea
+
+
 # learned that above seems to make displaying of the information funky. Definitely, don't do additional ptag.
 # creates a drop down menu called details.
 <details>
@@ -11,7 +14,7 @@
 </details>
 
 
-
+<ul style="list-style: none; ul>"
 
 # tried this which is better?
 
@@ -32,7 +35,7 @@
       <li>Review #1: </li>
     </ul>
 
-# classes are how you should use id. A bunch of p tags. 
+# classes are how you should use id. A bunch of p tags.
 id="description"
     #description{
       color: blue;
@@ -41,6 +44,7 @@ id="description"
 
 
 # learned today:
+Warning: Comments seen before doctype. Internet Explorer will go into the quirks mode.
 
 # that when my html isn't working like I think. I should check the following errors:
 1. failed

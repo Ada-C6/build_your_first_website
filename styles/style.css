@@ -1,0 +1,39 @@
+
+
+
+/* index page styling */
+/* color scheme idea:
+A. 9247AD: purple hueish color
+B. F25D75: pinkish
+C. 5B56B6: purply bluish color
+D. F2FC61: straight up yellow!
+*/
+#header {
+	background: #9247AD;
+	border-left: solid 1px #9a9;
+	border-right: solid 1px #565;
+	border-top: solid 1px #9a9;
+	font: italic normal 230% 'Times New Roman', Times, serif;
+	letter-spacing: 0.1em;
+	margin: 0;
+	padding: 15px 10px 15px 60px;
+}
+
+#main_content li {
+  display: inline-block;
+  margin-left: 20px;
+  margin
+}
+<ul style="list-dash-style: none; ul>"
+
+/*.ul{
+  style="list-dash-style":
+  none;
+}*/
+
+/*.img {
+  display: inline-block;
+  width:auto;
+  height: 20px;
+}*/
+/*if I wanted to make the pictures side by side to each other. I'd I've have to label pics?*/
