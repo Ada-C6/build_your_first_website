@@ -14,10 +14,21 @@ D. F2FC61: straight up yellow!
 	padding: 0;
 	overflow: hidden;
 	background: 333;
+  align-content: center;
 
 }
+ #nav_bar {
+   align-items: center;
+   /*align-content: center;
+   background-color: blue;
+   float: center;
+ }*/
+ }
+
+
 li {
 	float:left;
+  background-color: yellow;
 }
 li a {
 	display: inline;
@@ -31,9 +42,9 @@ li a {
 
 #header {
 	/*Place the Header/Title section across the top of the site with a border and appropriate background color. What's apropriate?*/
-	background: #F2FC61;
+	background: #D3D3D3;
 	font: Impact;
-	font-size: 24px;
+	font-size: 20px;
 	text-align: center;
 	font-style: bold;
 	font-variant: normal;
@@ -42,6 +53,7 @@ li a {
 	border-top: dotted 5px #F25D75;
 	border-bottom: dotted 5px #F25D75;
 	letter-spacing: 0.1em;
+  opacity: .5;
 }
 
 #main_content li {
@@ -51,8 +63,9 @@ li a {
 }
 /*<ul style="list-dash-style: none; ul>"*/
 body {
-	background-image: url(http://fox.graphics/files/rainbow-triangles.jpg);
-	/*this is just for fun, maybe beige?*/
+  /*image of giant road. */
+	background-image: url( http://www.mycoolbackgrounds.com/backgrounds/22921/Journey%20in%20Motion,%20Great%20Smoky%20Mountains%20National%20Park,%20Tennessee.jpg);
+  background-repeat: no-repeat;
 }
 
 ul {
@@ -60,13 +73,28 @@ ul {
   list-style-type: none;
 }
 
+.books img {
+  max-height: 10em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 #author_pic {
 	display: block;
 	width: 200px;
 	height: auto;
 }
 
-.footer ul {
+footer ul {
 	list-style-type: none;
 	/*#not working.*/
 	text-transform: capitalize;
@@ -74,16 +102,17 @@ ul {
 	width: 1200px;
 }
 
-.footer li {
+footer li {
 	text-align: center;
 	display: inline-block;
+  background-color: blue;
 }
-.footer li a {
+footer li a {
 	list-style-type: none;
 	width: 100px;
 	position: relative;
 }
-.footer h3 {
+footer h3 {
 	display: flex;
 }
 
