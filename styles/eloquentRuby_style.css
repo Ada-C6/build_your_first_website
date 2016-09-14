@@ -1,0 +1,55 @@
+
+h4, section ul{
+  font-family: "Montserrat";
+}
+
+section h4{
+  background-color: #40465d;
+  color: white;
+  padding-left: 2rem;
+}
+
+section p{
+  padding-left:2rem;
+  padding-right: 2rem;
+}
+
+section{
+  background-color: #f2f2f2;
+}
+
+ul{
+  list-style-type: none;
+}
+
+nav a{
+   color: black;
+   text-decoration: none;
+}
+
+header{
+  background-color: #40465d;
+}
+
+header a{
+ float: left;
+ margin-right: 20px;
+}
+
+header h2{
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+}
+
+footer{
+  background-color: #40465d;
+  text-align: center;
+  color: white;
+}
+
+footer a {
+  color: white;
+  font-family: "Montserrat";
+}
