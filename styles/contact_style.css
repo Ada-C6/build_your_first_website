@@ -1,0 +1,51 @@
+
+article{
+  padding-top: 20rem;
+  padding-bottom:2rem;
+  background-image: url("http://wallpoper.com/images/00/28/90/81/steinsgate-makise_00289081.jpg");
+  background-size: 80rem 50rem;
+  background-repeat: no-repeat;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0
+}
+
+body{
+  background-color: black;
+}
+
+section{
+  position: relative;
+  left: 3rem;
+}
+
+section h1{
+  text-transform: uppercase;
+  font-size: 3rem;
+  color:black;
+  font-family: "Righteous";
+}
+
+article p,ul{
+  color:black;
+  font-family: "Righteous";
+}
+
+section{
+  position: relative;
+  left: 5rem;
+  bottom: 5rem;
+}
+
+footer nav{
+  font-family: "Montserrat";
+  text-align: center;
+  color:white;
+}
+
+nav a{
+  color:white;
+  text-decoration: none;
+}
