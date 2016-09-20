@@ -65,6 +65,7 @@ body {
   /*image of giant road. */
 	background-image: url( http://www.mycoolbackgrounds.com/backgrounds/22921/Journey%20in%20Motion,%20Great%20Smoky%20Mountains%20National%20Park,%20Tennessee.jpg);
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 ul {
