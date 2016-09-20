@@ -1,0 +1,113 @@
+
+
+
+/* index page styling */
+/* color scheme idea:
+A. 9247AD: purple hueish color
+B. F25D75: pinkish
+C. 5B56B6: purply bluish color
+D. F2FC61: straight up yellow!
+*/
+#nav_bar ul {
+ 	list-style-type: none;
+	margin: 0;
+	padding: 1;
+	overflow: hidden;
+	background: 333;
+  align-content: center;
+
+}
+ #nav_bar {
+   align-items: right;
+   /*# I know there has got to be a better way to achievev this. I wanted my navs centered.*/
+   padding-left: 200px;
+ }
+
+
+li {
+	float:left;
+}
+
+li a {
+
+	/*display: inline;*/
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+ li a:hover {
+	 background-color: #FFC300;
+ }
+
+#header {
+	/*Place the Header/Title section across the top of the site with a border and appropriate background color. What's apropriate?*/
+	background: #D3D3D3;
+	font: Impact;
+	font-size: 20px;
+	text-align: center;
+	font-style: bold;
+	font-variant: normal;
+	border-left: dotted 5px #000080;
+	border-right: dotted 5px #000080;
+	border-top: dotted 5px #000080;
+	border-bottom: dotted 5px #000080;
+	letter-spacing: 0.1em;
+  opacity: .5;
+}
+
+#main_content li {
+  display: inline-block;
+  margin-left: 20px;
+  margin: auto;
+}
+/*<ul style="list-dash-style: none; ul>"*/
+body {
+  /*image of giant road. */
+	background-image: url( http://www.mycoolbackgrounds.com/backgrounds/22921/Journey%20in%20Motion,%20Great%20Smoky%20Mountains%20National%20Park,%20Tennessee.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+ul {
+	/*gets rid of bullets.*/
+  list-style-type: none;
+}
+
+.books img {
+  /*this feels a bit hacky, I would have planned things differently.*/
+  max-height: 20em;
+  max-width: 70em;
+  height: 20em;
+  width: 15em;
+  padding: 10px;
+}
+
+#author_pic {
+	display: block;
+	width: 200px;
+	height: auto;
+}
+
+footer {
+  padding-left: 25em;
+  display: inline-block;
+
+}
+
+.description {
+  font-size: 1.5em;
+
+}
+
+#onlybook {
+  padding-left: 35%;
+  padding-right: 35%;
+
+}
+
+/*.img {
+  display: inline-block;
+  width:auto;
+  height: 20px;
+}*/
+/*if I wanted to make the pictures side by side to each other. I'd I've have to label pics?*/
