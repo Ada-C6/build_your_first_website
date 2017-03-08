@@ -1,14 +1,14 @@
 # Building Your First Website
 
-Now we will use the skills you've learned to build pages of an online book review website. 
+Now we will use the skills you've learned to build pages of an online book review website.
 
 ##  Learning Goals:
 
 -  Demonstrate an understanding of HTML Syntax  
--  Demonstrate an understanding of appropriate tag selection for specific content.  
--  Demonstrate an ability to link local pages and remote pages.
--  Demonstrate the creation of a external stylesheet.  
--  Organize a site with [semantic](http://blog.teamtreehouse.com/use-html5-sectioning-elements) HTML.
+-  Demonstrate an understanding of appropriate tag selection for specific content  
+-  Demonstrate an ability to link local pages and remote pages
+-  Demonstrate the creation of a external stylesheet  
+-  Organize a site with [semantic](http://blog.teamtreehouse.com/use-html5-sectioning-elements) HTML
 
 
 ## Wave 1 - Creating Semantic HTML
@@ -19,7 +19,7 @@ Now we will use the skills you've learned to build pages of an online book revie
 In this exercise you will create the HTML to go along with content for 3 pages of HTML.  You will structure the content given in the content folder with semantic html tags providing meaning to the content.  
 
 Each page will have a:
--  The standard Doctype, Head, and Body of an HTML page.  
+-  Doctype, Head, and Body of an HTML    
 -  A Header/Title Section
 -  Navigation Section with links for the site
 -  A footer with a copyright notice and your name
@@ -28,24 +28,25 @@ The pages of your site will be the pieces of an online book review site.  __[Und
 
 ### Site Homepage
 
-For the homepage of your site, named `index.html` you will create a page with:
+The homepage of your site is named `index.html`. This page will have:  
 -  A Header section with the title for your book review site.
 -  A section for navigation.
--  A main content section with an html unordered list of the top-5 book images (see the images folder) which should link to their pages in Amazon.com or book review pages.  
+-  A main content section with an unordered list of the top-5 book images (see the images folder)
+  - Each image should link to their page in Amazon.com or a book review page.  
 
 ### Book Review Pages
-You will then create a book review page template, using Eloquent Ruby by Russ Olsen and develop a structure for the site.  The content for the page is provided in the content folder by the textfile `index_content.txt`. The book review page will have the same overall structure as `index.html` except the main content section will structure the information inside of the text file.  The page should also include the image of book EloquentRuby.jpg
+You will then create a book review page template, using Eloquent Ruby by Russ Olsen as your example.  The content for the page is provided in the content folder by the textfile `Eloquent_Ruby.txt`. The book review page will have the same overall structure as `index.html` except the main content section will structure the information inside of the text file.  The page should also include the image of the book, included in the images folder.
 
 ### Site Contact Page
-You will also include a contact page for visitors to provide feedback to the maintainers.  
+You will include a contact page for visitors to provide feedback to the maintainers.  
 
-The page will include:
+This page will include:
 
--  A Picture of the site maintainer, you can use a picture of yourself or use the goofy picture provided.
+-  A picture of the site maintainer. You can use a picture of yourself or use the goofy picture provided in the images folder.
 -  A statement welcoming feedback on the site via e-mail, twitter or facebook.
 -  A list of methods to contact the site maintainer via email, Twitter and Facebook.  
 
-When you finish review the site with another student at your table explaining your choices in terms of tags and sectioning of the pages.  
+When you are finished, review the site with another student at your table explaining the design choices you made.
 
 What sectioning/semantic tags did you use and where?
 -  div
@@ -64,24 +65,24 @@ Make adjustments where it seems appropriate.
 
 In This wave you will add CSS styling to change the appearance of the site.  You will be adding an external stylesheet named `style.css`.
 
-In the style sheet you will be discovering how to:
+In the style sheet you will be practicing how to:
 
--  Place the Header/Title section across the top of the site with a border and appropriate background color.
+-  Place the Header/Title section across the top of the site with a border and appropriate background color
 -  Provide an appropriate background color for the main content section
--  Select appropriate fonts & colors for text on the site.  
--  Make the navigation links display different colors when the mouse rolls over the link.  
--  Use CSS styling to hide the bullet-points of the unordered lists in the site.  
+-  Select appropriate fonts & colors for text on the site  
+-  Make the navigation links display different colors when the mouse rolls over the link  
+-  Use CSS styling to hide the bullet-points of the unordered lists in the site  
 -  Place the Footer section across the entire bottom of the site with a border and an appropriate background color
- 
+
 
 Page Specific Styling:
--  `index.html` 
-	-  use CSS styling to hide the bullet-points of the unordered list containing the book images.
+-  `index.html`
+	-  use CSS styling to hide the bullet-points of the unordered list containing the book images
 	-  use CSS styling to make all the images the same height
 -  `eloquentRuby.html`
-	-  The __Eloquent Ruby__ book image should be left-aligned with the details about the book to the right of it.
+	-  The __Eloquent Ruby__ book image should be left-aligned with the details about the book to the right of it
 -  `contact.html`
-	-  The site maintainer photo should be left-aligned and the message about contacting the site maintainer to the right of it.  
+	-  The site maintainer photo should be left-aligned and the message about contacting the site maintainer to the right of it  
 
 When you are finished review your changes with your tablemate.  
 
